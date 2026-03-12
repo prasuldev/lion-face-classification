@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh15280\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 PROJECT DESCRIPTION\
+\
+The Lion Face Classification Project is a deep learning based computer vision system designed to identify individual lions from images.\
+\
+The project uses supervised learning and treats the problem as a multi-class classification task. Each lion represents one class, and the model predicts which lion appears in the image.\
+\
+Images are organized in a structured dataset where each folder corresponds to a specific lion identity.\
+\
+A Convolutional Neural Network (CNN) is used as the core algorithm because CNNs are highly effective at extracting visual features from images such as patterns, textures, and shapes.\
+\
+The system uses transfer learning with pretrained models such as MobileNetV2, ResNet, or EfficientNet. These models are already trained on millions of images and can efficiently learn new visual patterns with a smaller dataset.\
+\
+The model architecture includes a pretrained CNN base, followed by pooling layers, dense layers, dropout for regularization, and a final softmax classification layer.\
+\
+Categorical cross-entropy is used as the loss function because the task involves multiple mutually exclusive classes.\
+\
+The Adam optimizer is used for training because it provides adaptive learning rates and fast convergence.\
+\
+To reduce overfitting, data augmentation techniques such as rotation, zoom, and horizontal flipping are applied to the training images.\
+\
+The model performance is evaluated using accuracy, precision, recall, and confusion matrix metrics.\
+\
+In more advanced versions, the system could use embedding-based face recognition where the model generates vector representations of lion faces and compares them using similarity metrics such as Euclidean distance or cosine similarity.\
+\
+This project demonstrates how artificial intelligence and computer vision can assist wildlife conservation and animal identification.}
